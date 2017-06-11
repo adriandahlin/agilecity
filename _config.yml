@@ -13,7 +13,7 @@ permalink: pretty
 highlighter: rouge
 incremental: true
 
-baseurl: /AgileCityPerformancePlaybook
+baseurl: /agilecity
 
 sass:
   style: :compressed
