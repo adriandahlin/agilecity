@@ -1,5 +1,5 @@
 ---
-title: Add images
+title: 2. Data Quality
 ---
 There are two ways to add images. First, if you'd like to keep all your images
 in a separate directory, create an `images/` directory and put your images inside it.

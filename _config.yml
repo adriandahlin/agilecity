@@ -13,13 +13,15 @@ permalink: pretty
 highlighter: rouge
 incremental: true
 
+baseurl: /SmallCityPerformancePlaybook
+
 sass:
   style: :compressed
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: NYU CUSP
-  url: https://cusp.nyu.edu
+  name: Jonathan Pichot, Adrian Dahlin, Chris Streich, Maisha Lopa, and Danny Fay
+  url: https://github.com/cusp2017
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/18f-logo.png
@@ -33,32 +35,21 @@ expand_nav: true
 navigation:
 - text: Who Is This For?
   internal: true
-- text: Add images
-  url: add-images/
+- text: 1. Where To Start
+  url: 1-where-to-start/
   internal: true
-- text: Update the config file
-  url: update-the-config-file/
+- text: 2. Data Quality
+  url: 2-data-quality/
   internal: true
-  children:
-  - text: Understanding the `baseurl:` property
-    url: understanding-baseurl/
-    internal: true
-- text: GitHub setup
-  url: github-setup/
+- text: 3. Public Outreach
+  url: 3-public-outreach/
   internal: true
-- text: Post your guide
-  url: post-your-guide/
+- text: 4. Privacy
+  url: 4-privacy/
   internal: true
-- text: Advanced features
-  url: advanced-features/
+- text: 5. The Dangers of Data
+  url: 5-the-danger-of-data/
   internal: true
-- text: Add a new page
-  url: add-a-new-page/
-  internal: true
-  children:
-  - text: Make a child page
-    url: make-a-child-page/
-    internal: true
 
 repos:
 - name: Guides Template
